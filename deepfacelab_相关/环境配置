@@ -1,0 +1,6 @@
+Ubuntu 16.04
+cuda 9.0
+cudnn 7.0.5
+tensorflow-gpu 2.1.0
+
+完美运行
