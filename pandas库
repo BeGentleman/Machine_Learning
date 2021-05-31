@@ -6,6 +6,19 @@
      axis = 1 是对行进行操作
      axis = 0 是对列进行操作
      
+     2.dataframe 和 series
+     dataframe 是形如
+     [[1,2,3],
+      [4,5,6],
+      [7,8,9]]的矩阵
+      
+      series 是形如
+      1
+      2
+      3
+      这样的一列
+      
+      3.对dataframe和series进行取数据操作
      
 
 0x02 高级操作
