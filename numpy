@@ -50,3 +50,30 @@
      >>> np.unique(c)
      array([1, 2, 3, 4, 5, 6])
      
+     d.矩阵的选取
+     用例子来说明：
+     >>> a = np.array([[1,2,3],[4,5,6]])
+     # 先创建一个二维矩阵
+     >>> a
+     array([[1, 2, 3],
+            [4, 5, 6]])
+     # 取矩阵当中的所有内容
+     >>> a[:]
+     array([[1, 2, 3],
+            [4, 5, 6]])
+     # 反转矩阵，因为是二维数组在同一个维度当中，所以直接反转的化，会将当前维度的所有元素整体进行反转
+     >>> a[::-1]
+     array([[4, 5, 6],
+            [1, 2, 3]])
+     # 二维数组，不能有两个::
+     >>> a[:,:,::-1]
+     Traceback (most recent call last):
+       File "<stdin>", line 1, in <module>
+     IndexError: too many indices for array: array is 2-dimensional, but 3 were indexed
+     # 第一个冒号，代表从头到尾都选取，然后进行反转
+     >>> a[:,::-1]
+     array([[3, 2, 1],
+            [6, 5, 4]])
+
+
+
