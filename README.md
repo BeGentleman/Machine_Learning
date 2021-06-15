@@ -15,3 +15,6 @@ KMeans
 决策树  
 熵  
 SVM支持向量机  
+
+# Deep_learning  
+深度学习相关
