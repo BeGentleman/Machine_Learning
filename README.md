@@ -20,13 +20,13 @@ XGBoost
 LightGBM
 
 ## Deep_learning  
-感知机
-反向传播
-全连接网络
-深度学习优化方法
-CNN（AlexNet，VGG，ResNet，等）
-DL+CV（Yolo，RCNN，mask-Rcnn等）
-RNN
-LSTM
-DL+NLP（transformer，等）
-GAN（cycle GAN）
+感知机  
+反向传播  
+全连接网络  
+深度学习优化方法  
+CNN（AlexNet，VGG，ResNet，等）  
+DL+CV（Yolo，RCNN，mask-Rcnn等）  
+RNN  
+LSTM  
+DL+NLP（transformer，等）  
+GAN（cycle GAN）  
