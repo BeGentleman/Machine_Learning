@@ -263,6 +263,11 @@ cv.destroyAllWindows()
 
 ### 色彩空间的转换
 
+```python
+# 将BGR图像转换为HSV图像
+hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
+```
+
 
 
 
