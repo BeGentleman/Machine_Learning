@@ -75,5 +75,10 @@
      array([[3, 2, 1],
             [6, 5, 4]])
 
-
-
+     e.各种常用函数
+     np.random.randint()
+     np.zeros()
+     np.ones()
+     np.empty()
+     np.shape()
+     np.reshape()
