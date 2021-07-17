@@ -286,7 +286,9 @@ hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
 import cv2 as cv
 
 # 图像缩放
-cv.resize(要缩放的图像, 输出的图像, 输出图像尺寸, 沿x轴缩放系数, 沿y轴缩放系数, 插值方式)
+# TODO：这块有问题
+cv.resize(要缩放的图像,  输出图像尺寸, 沿x轴缩放系数, 沿y轴缩放系数, 插值方式)
+
 ```
 
 插值方式：
