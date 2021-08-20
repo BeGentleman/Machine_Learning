@@ -17,5 +17,6 @@ cv2.dnn.blobFromImage(img,
 # size: 输出blob图像的尺寸，格式如 size=(宽, 高)
 # mean: 从各通道减均值，输入的image如果是从opencv读取来的，顺序是BGR，需要将swapRB置为True，通道变为(mean-R, mean-G, mean-B)
 # crop: **表示将图像resize后是否进行剪裁，如果剪裁就置为True。剪裁的时候，先固定一个短的，然后去裁剪长的，因为只有这样才能符合逻辑（没有根本剪裁不了）**这个可能不对，有待验证，不能用作参考
+# crop:先对图像进行resize，如果是缩小，就先固定短边；如果放大，就先固定长边，然后再剪裁。# 感觉不完善
 # TODO:补充完整
 ~~~
