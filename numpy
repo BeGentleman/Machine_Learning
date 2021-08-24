@@ -76,19 +76,34 @@
 
      e.各种常用函数
      np.random.randint()
-     np.zeros()
-     np.ones()
-     np.empty()
-     np.shape()
-     np.reshape()
-     np.eye()
      
+     np.zeros()
+     
+     np.ones()
+     
+     np.empty()
+     
+     np.shape()
+     
+     np.reshape()
+     
+     np.eye()
      用法：
      >>> d = np.eye(3)
      >>> d
      array([[1., 0., 0.],
             [0., 1., 0.],
             [0., 0., 1.]])
+            
+     np.where()
+     用法:
+     >>> cond = np.arange(10)
+     >>> cond
+     array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+     >>> np.where(cond, 1, -1)
+     array([-1,  1,  1,  1,  1,  1,  1,  1,  1,  1])
+     >>> np.where(cond>5, 1, -1)
+     array([-1, -1, -1, -1, -1, -1,  1,  1,  1,  1])
      
      f.矩阵乘法
      用关键字 @
