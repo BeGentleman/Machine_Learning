@@ -2,7 +2,6 @@
      最主要的功能是用来做矩阵运算。
 
 
-
 0x01 需要掌握的基本概念
      a.什么是矩阵？
      b.什么是向量？
@@ -77,8 +76,64 @@
 
      e.各种常用函数
      np.random.randint()
+     
      np.zeros()
+     
      np.ones()
+     
      np.empty()
+     
      np.shape()
+     
      np.reshape()
+     
+     np.eye()
+     用法：
+     生成一个单位矩阵
+     
+     举例：
+     >>> d = np.eye(3)
+     >>> d
+     array([[1., 0., 0.],
+            [0., 1., 0.],
+            [0., 0., 1.]])
+            
+     np.where()
+     用法:
+     符合条件置为1，不符合条件置为-1
+     
+     举例：
+     >>> cond = np.arange(10)
+     >>> cond
+     array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+     >>> np.where(cond, 1, -1)
+     array([-1,  1,  1,  1,  1,  1,  1,  1,  1,  1])
+     >>> np.where(cond>5, 1, -1)
+     array([-1, -1, -1, -1, -1, -1,  1,  1,  1,  1])
+     
+     np.argmax()
+     用法：
+     找到第一个最大值的索引
+     
+     举例：
+     >>> import numpy as np
+     >>> array_1 = np.array([1,5,68,98,2,6,452,12,7,13])
+     >>> print(np.argmax(array_1))
+     6
+     >>> array_2 = np.array([1,5,68,98,2,6,452,12,7,452])
+     >>> print(np.argmax(array_2))
+     6
+     >>>
+     
+     np.polyfit()
+     最小二次拟合
+     
+     用法：
+     
+     举例：
+     
+     
+     f.矩阵乘法
+     用关键字 @
+     矩阵乘法流程：
+     # TODO
