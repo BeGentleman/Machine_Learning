@@ -6,6 +6,15 @@
 上采样  
 下采样  
 filters  
+FCN：全卷积神经网络，Fully Convolutional Network。网络结构全由卷积神经网络构成。如 yolo v3。
+FPN：特征金字塔，Feature Pyramid Networks。用来做什么？TODO
+RPN：区域生成网络，RegionProposal Network。如 Faster-RCNN。
+BN：Batch Normalization。#TODO
+
+
+
+
+
 等等基础概念  
 
 
