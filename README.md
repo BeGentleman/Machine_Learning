@@ -30,3 +30,16 @@ RNN
 LSTM  
 DL+NLP（transformer，等）  
 GAN（cycle GAN）  
+
+## 涉及到的第三方库
+### 框架：
+tensorflow,keras
+caffe
+pytorch
+
+### 常用库
+sklearn
+opencv
+matplotlib
+numpy
+pandas
