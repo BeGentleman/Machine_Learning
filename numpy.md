@@ -8,8 +8,8 @@
 
 
 0x02 numpy的基本操作    
+         
      a.创建一个矩阵    
-     
      b.随机数种子    
      >>> import numpy as np    
      >>> np.random.seed(0)    
@@ -180,3 +180,13 @@
      用关键字 @    
      矩阵乘法流程：    
      # TODO    
+
+     g.array类型转list
+     >>> import numpy as np
+     >>> n = np.array([[1,2],[3,4],[5,6]])
+     >>> n
+     array([[1, 2],
+            [3, 4],
+            [5, 6]])
+     >>> n.tolist()
+     [[1, 2], [3, 4], [5, 6]]
